@@ -4,9 +4,9 @@ import math,copy
 
 import scipy.stats
 
-from fishtest.stats import LLRcalc
-from fishtest.stats import sprt
-from fishtest.stats import brownian
+from stats import LLRcalc
+from stats import sprt
+#import stats.brownian
 
 def Phi(q):
   """

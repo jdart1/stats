@@ -5,8 +5,9 @@ import argparse
 
 import scipy.optimize
 
-from fishtest.stats.brownian import Brownian
-from fishtest.stats import LLRcalc
+from .brownian import Brownian
+
+from stats import LLRcalc
 
 class sprt:
     def __init__(self,alpha=0.05,beta=0.05,elo0=0,elo1=5):
